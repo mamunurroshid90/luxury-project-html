@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* header section start */
+.header-section{
+    width: 1492px;
+    height: 548px;
+    background: #F7F7F7;
+    
+}
+
+.navbar {
+    width: 1068px;
+    margin-left: 230px;
+    margin-right: 380px;
+    padding-top: 35px;
+}
+
+.navbar img{
+    width: 125px;
+    height: 51px;
+    margin-right: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.0015em;
+    color: #000000;
+
+    }
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    
+.btn{
+    width: 126px;
+    height: 44px;
+    margin-left: 103px;
+    color: #FFFFFF;
+    background: #251D58;
+    border-radius: 5px;
+}
+.header-detail{
+    width: 1068px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    margin-left: 230px;
+    
+}
+.h-detail .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 60px;
+    color: #1F1632;
+    margin-bottom: 17px;
+}
+
+
+.h-detail p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #606268;
+    margin-right: 20px;
+    
+}
+
+.d-btn{
+    background: #251D58;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+}
+
+.header-detail img{
+    width: 420px;
+    height: 300px;
+    
+}
+/* header section end */
+
+
+/* project section start */
+.projects-section{
+    text-align: center;
+    width: 1068px;
+    margin-left: 230px;
+    padding-top: 27px;
+}
+
+.projects-section .latest-interior {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.0015em;
+    color: #1F1632;
+    margin-top: -13px;
+}
+
+.img-size img{
+    width: 320px;
+    height: 270px
+}
+
+.img-size .p-items{
+    color: #1F1632;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.projects-pic{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    
+}
+
+.location{
+    color: #4D4F55;
+    font-size: 16px;
+}
+
+
+.service-section{
+    text-align: center;
+    width: 1068px;
+    margin-left: 250px;
+    padding-top: 27px;
+}
+
+.card-container {
+    display: flex;
+    padding-top: 30px;
+    margin-left: 100px;
+
+}
+
+
+
+.card{
+    width: 290px;
+    height: 280px;
+    padding-top: 30px;
+    
+}
+
+.card:hover{
+    width: 290px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.s-headline{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #1F1632;
+    margin-top: -18px;
+}
+
+.service-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #16322E;
+    margin-top: -5px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 600;
+    color: #16322E;
+    margin-top: -20px;
+}
+
+.explore-btn{
+    margin: 50px;
+}
+/* project section end */
+
+
+/* testimonial section start */
+.testimonial-section{
+    width: 1492px;
+    height: 548px;
+    background: #F7F7F7;
+}
+
+.testimonial-container{
+    width: 1068px;
+    margin-left: 250px;
+    padding-top: 27px;
+}
+
+.testimonial-detail{
+    display: flex;
+
+}
+
+.test-info{
+    display: flex;
+    align-items: center;
+    
+}
+
+.test-info img{
+    margin-right: 18px;
+}
+
+.testimonial-card{
+    width: 290px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    padding: 25px;
+}
+
+h4{
+    margin-top: -19px;
+    font-size: 12px;
+}
+.fa-star{
+    color: orange;
+}
+/* testimonial section end */
+
+
+/*---------------
+ Input section start
+ -----------------*/
+
+ .contact-container{
+    text-align: center;
+    width: 1068px;
+    margin-left: 250px;
+    padding-top: 27px;
+ }
+
+ #contact-headding{
+    font-weight: 700;
+    font-size: 30px;
+    color: #2D2D2D;
+ }
+
+ input{
+    width: 279px;
+    height: 33px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 8px;
+ }
+
+ textarea{
+    width: 594px;
+    border: none;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+ }
+
+ input, textarea{
+    background: #F1F3F6;
+    border-radius: 5px;
+ }
+/*---------------
+ Input section end
+ -----------------*/
+
+
+
+ /* footer section start*/
+ .footer-section{
+    position: relative;
+    background-color: #251d58;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+ }
+
+ .footer{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+ }
+
+ .address{
+    font-size: 14px;
+    margin-right: 35px;
+ }
+
+.company{
+    margin-right: 35px;
+}
+
+ .company li{
+    list-style: none;
+    font-size: 12px;
+ }
+
+ .quick-links{
+    margin-right: 35px;
+ }
+
+ .quick-links li{
+    list-style: none;
+    font-size: 12px;
+ }
+
+ .about .lorem{
+    font-size: 12px;
+ }
+
+ .fa-brands{
+    font-size: 25px;
+    margin: 10px;
+ }
+
+ .copyright{
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 500px;
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.7);
+ }
+/* footer section end*/
